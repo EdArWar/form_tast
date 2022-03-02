@@ -18,6 +18,10 @@
   border: 2px solid #3d3d3d;
   background-color: transparent;
   margin-top: 6px;
+  font-family: Manrope;
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
 }
 
 .warning_icon {
@@ -30,6 +34,8 @@
 .warning_text {
   display: flex;
   align-items: center;
+  margin-top: 10px;
+  margin-bottom: 28px;
 }
 
 .warning_text span {
@@ -45,13 +51,6 @@
   font-size: 16px;
   line-height: 22px;
   color: rgba(255, 255, 255, 0.6);
-
-  /* Inside auto layout */
-
-  /* flex: none;
-  order: 0;
-  flex-grow: 1;
-  margin: 0px 8px; */
 }
 
 .buttons {
@@ -79,4 +78,12 @@
   margin-left: 5px;
   background: #fdcc19;
   color: rgba(0, 0, 0, 0.9);
+}
+
+textarea:focus,
+input:focus {
+  font-family: Manrope;
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 25px;
 }
